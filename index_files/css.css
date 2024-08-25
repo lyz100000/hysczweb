@@ -1,0 +1,131 @@
+﻿@charset utf-8;
+*{margin:0px;padding:0px;}
+body{font-size:14px;color:#686868;font-family:Arial,Helvetica,sans-serif;font-family:"微软雅黑";-webkit-text-size-adjust:none;overflow-x:hidden;}
+body a{outline:none;blr:expression(this.onFocus=this.blur());}
+li{list-style:none;}
+a{color:#686868;font-size:14px;text-decoration:none;}
+
+a img{border:0;margin:0;padding:0;}
+.clear{height:0;line-height:0;font-size:0;overflow:hidden;clear:both;}
+.hidden{display:none;}
+
+.tit_t{float:left;font-size:14px;font-weight:bold;height:27px;line-height:27px;text-indent:20px;}
+.s_more{float:right;margin-top:11px;margin-right:12px;display:inline;}
+.cb_b ul{overflow:hidden;padding-left:18px;padding-top:18px;}
+.cb_b ul li{float:left;margin-right:12px;display:inline;line-height:20px;}
+.cb_b ul li img{margin-bottom:3px;}
+.cb_b ul li .jg{color:#ed5c1b;}
+
+.ca_bb{padding:0px 18px;overflow:hidden;}
+.ca_bb .ca_bbt{padding:12px 0px;text-align:left;line-height:18px;border-bottom:1px dashed #ececec;overflow:hidden;}
+.ca_bb .ca_bbt img{float:left;margin-right:15px;display:inline;padding:2px;border:1px solid #ececec;}
+.ca_bb .ca_bbt .tit{font-weight:bold;}
+.ca_bb .ca_bbt a span{color:#ed5c1b;}
+.ca_bbb{overflow:hidden;padding-top:8px;}
+.ca_bbb ul li{line-height:24px;text-align:left;padding-left:10px;background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/dw_03.jpg) no-repeat left center;}
+.ca_bbb ul li .tim{float:right;color:#acacac;}
+.ca_bbb ul li .cla{color:#ed5c1b;}
+.ra_bb{text-align:center;padding-top:15px;text-align:center;}
+.ra_bb img{padding:2px;border:1px solid #ececec;margin-bottom:3px;}
+.lb_bb{padding:2px;border:1px solid #ececec;width:167px;height:119px;margin:16px auto 0px;}
+.rb_b ul{overflow:hidden;padding:5px 1px 0px;}
+.rb_b ul li{height:24px;line-height:24px;text-align:left;padding-left:35px;background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/bcw_06.jpg) no-repeat 12px center;}
+.rb_b ul .hi{background:#f3f3f3 url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/bcw_06.jpg) no-repeat 12px center;}
+.la_b ul{overflow:hidden;padding-top:8px;}
+.la_b ul li{line-height:21px;background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/dw_03.jpg) no-repeat 12px center;padding-left:20px;text-align:left;}
+
+.banner_bar{height:103px;text-align:center;overflow:hidden;}
+
+.con_bar .home_l{float:left;overflow:hidden;height:auto;width:216px;}
+.con_bar .home_r{float:right;overflow:hidden;height:auto;width:733px;}
+.nav_t{background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/2rt_05.png) no-repeat;height:27px;line-height:27px;text-align:left;text-indent:32px;}
+.nav_t .curpos{color:#1277C2;}
+.left_t{background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/2lt_03.png) no-repeat;height:27px;text-align:left;text-indent:40px;font-weight:bold;color:#42474a;line-height:27px;}
+.home_rc{overflow:hidden;background:#fff;padding:25px;border-left:1px solid #d4d4d4;border-right:1px solid #d4d4d4;text-align:left;min-height:400px;}
+.home_rb{background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/rb_05.png) no-repeat left bottom;height:27px;}
+.home_rc p{line-height:25px;margin-bottom:10px;}
+.home_l .left_b{overflow:hidden;background:#fff;border-left:1px solid #d4d4d4;border-right:1px solid #d4d4d4;}
+.home_l .left_b ul{overflow:hidden;padding-left:5px;padding-top:5px;}
+.home_l .left_b ul li{background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/2l_03.jpg) no-repeat;height:25px;text-align:left;line-height:25px;text-indent:32px;margin-bottom:4px;}
+.left_bb{background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/lb_03.png) no-repeat left bottom;height:10px;}
+.home_l .left_b ul li a{color:#1277c2;font-weight:bold;}
+.home_l .left_b ul .hov a{color:#ED5C1B;}
+.home_rc .tit_cn{font-size:14px;color:#1277c2;padding-bottom:5px;}
+
+.news_list ul li,.search_list ul li{line-height:25px;padding:10px 0px;border-bottom:1px solid #f3f3f3;overflow:hidden;}
+.news_list ul li .tit,.search_list ul li .tit{font-weight:bold;font-size:14px;}
+.news_list ul li a span{color:#ED5C1B;}
+.news_list ul li .tim{float:right;color:#ACACAC;}
+
+.title_news{text-align:center;font-weight:bold;font-size:16px;line-height:25px;border-bottom:1px dotted #ccc;margin-bottom:15px;padding-bottom:10px;}
+.title_news span{font-size:12px;font-weight:normal;}
+
+.fan_ye ul li{line-height:23px;text-align:left;}
+.mov_list ul{overflow:hidden;width:810px;}
+.mov_list ul li{float:left;margin-right:22px;display:inline;text-align:center;margin-bottom:22px;background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/bgh_03.jpg) no-repeat left top;width:154px;height:140px;}
+.mov_list ul li img{width:152px;height:105px;margin-bottom:7px;margin-top:1px;}
+
+.produc_xx{overflow:hidden;}
+.produc_xx .produc_xxl{float:left;}
+.produc_xx .produc_xxr{float:left;padding-left:10px;line-height:25px;width:320px;}
+.produc_xx .produc_xxr h2{margin-bottom:6px;}
+
+.cp_xq{height:30px;line-height:30px;padding-left:20px;background:#1277C2;font-size:14px;color:#fff;margin:5px 0px 15px;}
+.ban .flex-direction-nav{display:none;}
+.ban #container .slides li a,.ban #container .slides li{height:330px;}
+.ban #container .slides .banwa a{background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/index3_13.jpg) no-repeat left top;display:block;}
+.ban #container .slides .banwb a{background:url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/index3_13a.jpg) no-repeat left top;display:block;}
+
+
+.flex-control-nav {
+    background: url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/b3_03w.png) no-repeat ;
+    bottom: 12px;
+    height: 21px;
+    left: 50%;
+    margin-left: -32px;
+    padding-left: 4px;
+    position: absolute;
+    width:60px;
+    z-index: 9999;
+}
+.flex-control-nav li {
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 11px;
+    margin-left: 11px;
+    margin-top: 5px;
+    text-indent: -9999px;
+    width: 11px;
+}
+.flex-control-nav li a {
+    background: url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/index3_05w.png) no-repeat;
+    display: block;
+    height: 11px;
+    width: 11px;
+}
+
+.flex-control-nav li .active {
+    background: url(/web/20240117045316im_/http://hyscz.com/templets/default/images/img2/index3_03w.png) no-repeat;
+}
+/*
+     FILE ARCHIVED ON 04:53:16 Jan 17, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:38:00 Aug 25, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.036
+  exclusion.robots: 0.051
+  exclusion.robots.policy: 0.022
+  esindex: 0.025
+  cdx.remote: 25.203
+  LoadShardBlock: 275.693 (3)
+  PetaboxLoader3.datanode: 301.153 (5)
+  load_resource: 181.987
+  PetaboxLoader3.resolve: 65.846
+  loaddict: 62.147
+*/

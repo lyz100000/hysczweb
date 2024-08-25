@@ -1,0 +1,608 @@
+﻿@charset "utf-8";
+*{font-family:"Microsoft YaHei", "微软雅黑", Arial }
+body{ font-family:"微软雅黑";font-size:18px; overflow-x:hidden; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/bg.jpg) center top no-repeatheight:100px;}
+*,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,address{margin:0px;padding:0px;}
+a{text-decoration:none; color:#444;}
+strong,b{ font-weight:normal;}
+a:hover{text-decoration:none; color:#005bac;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+i,dl,dt,em,li{list-style-type:none; font-style:normal;}
+a{ border:none\9;}
+a img{border:none\9;}
+html {overflow:-moz-scrollbars-vertical;}/*CSS强制让浏览器显示滚动条*/
+html {min-height:101%;}
+
+.hearder{ width: 100%; margin:0 auto;}
+
+
+/*logo*/
+.logo_list{ width: 100%;margin:0 auto; height: 115px;  background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_01.png) repeat-x scroll left center;}
+.logo_list .logo{ width: 1200px; margin: 0 auto; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_05.png) no-repeat scroll right center;}
+.logo_list .logo .logo_left{ float: left; padding:17px 0;}
+.logo_list .logo .sear_r{ float:right; margin-top: 69px; }
+.logo_list .logo .sear_r ul{ float:left; margin-right: 10px; height: 27px; }
+.logo_list .logo .sear_r ul li{ float:left; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_04.png) no-repeat scroll right center;}
+.logo_list .logo .sear_r ul li a{ padding: 0 8px; font-size: 16px; color: #666; display: block; line-height: 27px; line-height: 27px\9;}
+.logo_list .logo .sear_r ul li a:hover{ color: #005bac;}
+.logo_list .logo .sear_r .sear_rb{ float:right; width: 230px; }
+.logo_list .logo .sear_r .sear_rb .searl{ float:left; width: 185px; height: 25px; padding-left: 10px; line-height: 25px; line-height: 25px\9; font-family: "微软雅黑"; font-size:16px; color: #444; border: solid 1px #d4d4d4; border-right: none; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_03.png) repeat-x; outline: none; }
+.logo_list .logo .sear_r .sear_rb .searr{ float: left; width:34px; height: 27px; text-align: center; font-family: "微软雅黑";  color: #fff; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_02.png) no-repeat; height: 27px;  border:none; cursor: pointer;}
+.logo_list .logo .sear_r .sear_rb .searr:hover{ filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8;}
+
+/* banner */
+.banner{ width:100%; height:490px;overflow: hidden;}
+.banner-box{min-width:100%;height:490px;position:relative; overflow:hidden;}
+.banner-box .bd{ width:100%;}
+.banner-box .bd li .m-width {width:100%; text-align:center;overflow:hidden;}
+.banner-box .bd li{width:100%;height:490px;}
+.banner-box .bd li a{display:block; height: 490px; cursor: pointer;}
+
+.banner-btn{position:absolute;top:173px;left:72.6%; margin: 0 auto;}
+.banner-btn a{display:block;width:63px;height:52px;position:relative;top:320px;filter:alpha(opacity=40);-moz-opacity:0.4;-khtml-opacity:0.4;opacity:0.4;}
+.banner-btn a.prev{ float:left;background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/ct_09.png) no-repeat 0 0;;} 
+.banner-btn a.prev:hover{background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/ct_09.png) no-repeat 0 -53px;} 
+.banner-btn a.next{background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/ct_09.png) no-repeat -63px 0; margin-left:63px;}
+.banner-btn a.next:hover{background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/ct_09.png) no-repeat -63px -53px;}
+
+.banner-box .hd {position:absolute;top:249px;right:0;}
+.banner-box .hd ul li{width:30px;height:8px;background:#fff; text-indent:-9999px;margin-left:10px;float:left;cursor:pointer;  display:block;}
+.banner-box .hd ul li.on{ background-color:#005bac;}
+
+.entrance{ width: 1200px; margin: 0px auto; position: relative; top:-40px; z-index: 999; }
+.entrance ul li{ float:left; width: 275px; height: 40px;}
+.entrance ul li.cj a{ text-align: center; line-height: 40px; line-height: 40px\9; font-size: 18px; color: #fff; display: block; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_06.png); }
+.entrance ul li.cj a:hover{ background: #2b73af; text-decoration: underline;}
+.entrance ul li.zs a{ text-align: center; line-height: 40px; line-height: 40px\9; font-size: 18px; color: #fff; display: block; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_07.png); }
+.entrance ul li.zs a:hover{ background: #e9ac26;  text-decoration: underline;}
+.entrance ul li.oa a{ text-align: center; line-height: 40px; line-height: 40px\9; font-size: 18px; color: #fff; display: block; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_08.png); }
+.entrance ul li.oa a:hover{ background: #6bb22f; text-decoration: underline;} 
+.entrance ul li.pt a{ text-align: center; line-height: 40px; line-height: 40px\9; font-size: 18px; color: #fff; display: block; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_09.png); }
+.entrance ul li.pt a:hover{ background: #30a899; text-decoration: underline;}
+
+/*主内容 */
+.conter_top{width: 1200px; margin: 20px auto 0;}
+.conter_top .conter_top_left{ float:left; width: 800px; }
+.conter_top .conter_top_left h3 p{ float:left; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_10.png) no-repeat scroll 3px 0px;  font-size: 19px; color: #333; line-height: 20px; line-height: 20px\9; padding-left:40px;}
+.conter_top .conter_top_left h3 a.gd{ float: right; font-size: 16px; color: #323232; display: block; padding-right: 21px; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_12.png) no-repeat right center;line-height: 20px; }
+.conter_top .conter_top_left h3 a.gd:hover{  color: #005bac}
+
+
+.conter_top .conter_top_botm{ float:left; width: 385px;}
+.conter_top .conter_top_botm h3 p{ float:left; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_10.png) no-repeat scroll 3px 0px;  font-size: 19px; color: #333; line-height: 20px; line-height: 20px\9; padding-left:40px;}
+.conter_top .conter_top_botm h3 a.gd{ float: right; font-size: 16px; color: #323232; display: block; padding-right: 21px; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_12.png) no-repeat right center;line-height: 20px; }
+.conter_top .conter_top_botm h3 a.gd:hover{  color: #005bac}
+
+.conter_top .conter_top_botmsp{ float:left; width: 385px; margin-left: 20px;}
+.conter_top .conter_top_botmsp h3 p{ float:left; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_10.png) no-repeat scroll 3px 0px;  font-size: 19px; color: #333; line-height: 20px; line-height: 20px\9; padding-left:40px;}
+.conter_top .conter_top_botmsp h3 a.gd{ float: right; font-size: 16px; color: #323232; display: block; padding-right: 21px; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_12.png) no-repeat right center;line-height: 20px; }
+.conter_top .conter_top_botmsp h3 a.gd:hover{  color: #005bac}
+
+.focus{position:relative;width:400px;height:270px;background-color:#000; float:left;  margin-top: 20px;}  
+.focus .img img{width:400px;height:300px;} 
+.focus .shadow .title{width:346px;height:27px;padding-left:30px;padding-top:20px;}
+.focus .shadow .title a{text-decoration:none;color:#fff;font-size:16px;font-weight:bolder;overflow:hidden;}
+.focus .btn{position:absolute;bottom:34px;left:510px;overflow:hidden;zoom:1;} 
+.focus .btn a{position:relative;display:inline;width:13px;height:13px;border-radius:7px;margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53";text-decoration:none;text-align:center;outline:0;float:left;background:#D9D9D9;}  
+.focus .btn a:hover,.focus .btn a.current{cursor:pointer;background:#fc114a;}  
+.focus .fPic{position:absolute;left:0px;top:0px;}  
+.focus .D1fBt{overflow:hidden;zoom:1;height:18px;z-index:10;}  
+.focus .shadow{width:100%;position:absolute;bottom:0px;left:0px;z-index:10;height:40px;line-height:40px;background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_18.png);display:block;text-align:left;}  
+.focus .shadow a{ float:left;text-decoration:none;color:#fff;font-size:16px;overflow:hidden;margin-left:10px;font-family:"\5FAE\8F6F\96C5\9ED1";} 
+.focus .shadow a img{ width:22px; height:11px; float:right; margin-top:5px;}
+.focus .shadow a:hover{ color:#005bac;}
+.focus .fcon{position:relative;width:100%;float:left;display:none;background:#000  }  
+.focus .fcon img{display:block;}  
+.focus .fbg{bottom:0px;right:0px;position:absolute;height:40px;text-align:center;z-index:200;}  
+.focus .fbg div{margin:14px auto 0;overflow:hidden;zoom:1;height:14px}    
+.focus .D1fBt a{position:relative;display:inline; width:12px; height:12px;margin-right:8px;text-decoration:none;text-align:center;outline:0;float:left;background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_17.png) no-repeat scroll right;}    
+.focus .D1fBt .current,.focus .D1fBt a:hover{ background-position:left;}    
+.focus .D1fBt img{display:none}    
+.focus .D1fBt i{display:none;font-style:normal;}    
+.focus .prev,.focus .next{position:absolute;width:40px;height:74px;background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/focus_btn.png) no-repeat;}
+.focus .prev{top:50%;margin-top:-37px;left:0;background-position:0 -74px;cursor:pointer;}  
+.focus .next{top:50%;margin-top:-37px;right:0;background-position:-40px -74px;cursor:pointer;}  
+.focus .prev:hover{background-position:0 0;}  
+.focus .next:hover{background-position:-40px 0;}
+
+.conter_top .conter_top_left .top_left_right{ width: 370px; float: left; margin-top:15px; padding-left:20px; }
+.conter_top .conter_top_left .top_left_right ul li a{ float:left; font-size: 16px; color: #333; line-height: 30px; line-height: 30px\9; display: block;}
+.conter_top .conter_top_left .top_left_right ul li a i.y1{ float: left; width: 4px; height: 7px; display: block; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_19.png) no-repeat; margin:11px 9px 0 3px; }
+.conter_top .conter_top_left .top_left_right ul li a:hover{ color:#005bac;}
+.conter_top .conter_top_left .top_left_right ul li span{ float:right; font-size: 16px; color: #666; line-height: 30px; line-height: 30px\9;}
+
+.conter_top .conter_top_botm .top_left_left{ width: 385px; float: left; margin-top:15px; }
+.conter_top .conter_top_botm .top_left_left ul li a{ float:left; font-size: 16px; color: #333; line-height: 30px; line-height: 30px\9; display: block;}
+.conter_top .conter_top_botm .top_left_left ul li a i.y1{ float: left; width: 4px; height: 7px; display: block; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_19.png) no-repeat; margin:11px 9px 0 3px; }
+.conter_top .conter_top_botm .top_left_left ul li a:hover{ color:#005bac;}
+.conter_top .conter_top_botm .top_left_left ul li span{ float:right; font-size: 16px; color: #666; line-height: 30px; line-height: 30px\9;}
+
+
+.conter_top .conter_top_botmsp .top_left_left{ width: 385px; float: left; margin-top:15px; }
+.conter_top .conter_top_botmsp .top_left_left ul li a{ float:left; font-size: 16px; color: #333; line-height: 30px; line-height: 30px\9; display: block;}
+.conter_top .conter_top_botmsp .top_left_left ul li a i.y1{ float: left; width: 4px; height: 7px; display: block; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_19.png) no-repeat; margin:11px 9px 0 3px; }
+.conter_top .conter_top_botmsp .top_left_left ul li a:hover{ color:#005bac;}
+.conter_top .conter_top_botmsp .top_left_left ul li span{ float:right; font-size: 16px; color: #666; line-height: 30px; line-height: 30px\9;}
+
+.conter_top .conter_top_right{ float:right; width: 375px; }
+.conter_top .conter_top_right ul li a{ float:left; font-size: 16px; color: #333; line-height: 30px; line-height: 30px\9; display: block;}
+.conter_top .conter_top_right ul li a i.y1{ float: left; width: 4px; height: 7px; display: block; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_19.png) no-repeat; margin:11px 9px 0 3px; }
+.conter_top .conter_top_right ul li a:hover{ color:#005bac;}
+.conter_top .conter_top_right ul li span{ float:right; font-size: 16px; color: #666; line-height: 30px; line-height: 30px\9;}
+
+
+.conter_top .conter_top_right h3 p{ float:left; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_13.png) no-repeat scroll 3px 0px;  font-size: 19px; color: #333; line-height: 20px; line-height: 20px\9; padding-left:40px;}
+.conter_top .conter_top_right h3 a.gd{ float: right; font-size: 16px; color: #323232; display: block; padding-right: 21px; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_12.png) no-repeat right center;line-height: 20px; }
+.conter_top .conter_top_right h3 a.gd:hover{  color: #005bac}
+.conter_top .conter_top_right .top_right_jy{ margin-top:20px; }
+.conter_top_right .top_right_jy .img{ width: 295px; height: 135px; overflow: height; }
+.conter_top_right .top_right_jy .title{text-align: center;}
+.conter_top_right .top_right_jy .title a{ line-height: 30px; line-height: 30px\9; font-size: 17px; color: #333;}
+.conter_top_right .top_right_jy .title a:hover{ color: #005bac;}
+.conter_top_right .top_right_jy .tit{ font-size: 16px; color: #333; line-height: 20px; line-height: 20px\9; position: 0 10px; text-indent: 2em; }
+
+.conter_banner{  width: 1200px; margin:30px auto;  overflow: hidden;}
+.conter_banner ul{ width: 1120px; }
+.conter_banner ul li{ float: left; margin-right: 10px; border:solid 1px #ececec; }
+.conter_banner ul li a{ display: block; }
+.conter_banner ul li a:hover{opacity: 0.9;filter:alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity:0.9;}
+
+.conter{ width: 100%;  }
+.conter .conter_center{ padding: 15px 0 20px; width: 1200px; height: auto; margin:0 auto; }
+.conter .conter_center .conter_center_left{ float: left; width: 400px; }
+.conter .conter_center .conter_center_left h3 p{ float:left; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_21.png) no-repeat scroll 3px 0px;  font-size: 19px; color: #333; line-height: 20px; line-height: 20px\9; padding-left:40px;}
+.conter .conter_center .conter_center_left h3 a.gd{ float: right; font-size: 16px; color: #323232; display: block; padding-right: 21px; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_12.png) no-repeat right center;line-height: 20px; }
+.conter .conter_center .conter_center_left h3 a.gd:hover{  color: #005bac}
+.conter .conter_center .conter_center_left ul{ margin-top:20px; }
+.conter .conter_center .conter_center_left ul li a{ float:left; font-size: 16px; color: #333; line-height: 30px; line-height: 30px\9; display: block;}
+.conter .conter_center .conter_center_left ul li a i.y1{ float: left; width: 4px; height: 7px; display: block; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_19.png) no-repeat; margin:11px 9px 0 3px; }
+.conter .conter_center .conter_center_left ul li a:hover{ color:#005bac;}
+.conter .conter_center .conter_center_left ul li span{ float:right; font-size: 16px; color: #666; line-height: 30px; line-height: 30px\9;}
+
+.conter_fc{ width: 760px; height: auto; float: right; padding-left: 21px;}
+.conter_fc h3 p{ background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_22.png) no-repeat scroll 3px 0px;  font-size: 19px; color: #333; line-height: 20px; line-height: 20px\9; padding-left:40px;}
+.conter_fc h3 p a{ background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_35.png) no-repeat scroll 7px 3px;  font-size: 16px; color: #fff; line-height: 27px; line-height: 27px\9; padding-left:27px;}
+.conter_fc h3 p a:hover{ text-decoration: underline; }
+
+.txtScroll-lefta{ width:760px; height:auto; position:relative; margin-top: 20px;}
+.txtScroll-lefta .bd{ overflow:hidden; padding:20px 0 10px; background: #f1f1f1;}
+.txtScroll-lefta .bd ul{ float:left;}
+.txtScroll-lefta .bd ul li{ float:left; margin-left:20px;}
+.txtScroll-lefta .bd ul li .img{ width:155px; height:125px; overflow: hidden; display: block;}
+.txtScroll-lefta .bd ul li .img img{ width: 155px; }
+.txtScroll-lefta .bd ul li .title{ height:28px; width: 155px   }
+.txtScroll-lefta .bd ul li .title a{ font-size:18px; color:#333; display: block; text-align:center; line-height:28px;}
+.txtScroll-lefta .bd ul li:hover .title a{color:#1e85e6;}
+.txtScroll-lefta .bd ul li p.tit{ text-align: left !important; width:145px; padding:5px 5px 0; border-top:solid 1px #e5e5e5; line-height:20px; font-size:16px; color:#666;} 
+.txtScroll-lefta .prev,.txtScroll-lefta .next{ width:10px; height:13px;background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_33.png) no-repeat; cursor:pointer; z-index:100;}
+.txtScroll-lefta .prev{background-position:left top; position:absolute; right:16px; top:-40px; }
+.txtScroll-lefta .prev:hover{background-position:left bottom; }
+.txtScroll-lefta .next{ background-position:right top; position:absolute; right:0px; top:-40px;}
+.txtScroll-lefta .next:hover{background-position:right bottom;}
+
+.picMarquee-left_b{ width:725px;   position:relative;background: #Fff; margin-top:20px;  }
+.picMarquee-left_b .hd{ overflow:hidden; position:absolute;right: 0; top:-40px; }
+.picMarquee-left_b .hd .prev{ display:block;  width:10px; float:left; height:13px;  cursor:pointer; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_33.png) no-repeat scroll right top;}
+.picMarquee-left_b .hd .next{ display:block;  width:10px; height:13px;float:left;  margin-right:5px; cursor:pointer; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_33.png) no-repeat scroll left top;}
+.picMarquee-left_b .hd .next:hover{background-position:left bottom }
+.picMarquee-left_b .hd .prev:hover{background-position:right bottom }
+.picMarquee-left_b .bd{ padding:20px 0 10px;overflow:hidden;   }
+.picMarquee-left_b .bd ul{ overflow:hidden; zoom:1; }
+.picMarquee-left_b .bd ul li{ margin-left:20px; width: 155px;  float:left; _display:inline; overflow:hidden; text-align:center;  }
+.picMarquee-left_b .bd ul li .pic{ text-align:center;width:155px; height:125px;  overflow: hidden; }
+.picMarquee-left_b .bd ul li .pic a{ width:155px; height:125px; }
+.picMarquee-left_b .bd ul li .pic img{ width:155px;  }
+.picMarquee-left_b .bd ul li .title{ line-height:28px;   }
+.picMarquee-left_b .bd ul li .title a{ font-size:16px; color:#333; text-align:center; line-height:28px;}
+.picMarquee-left_b .bd ul li:hover .title a{color:#1e85e6;}
+.picMarquee-left_b .bd ul li p.tit{ text-align: left !important; width:145px; padding:5px 5px 0; border-top:solid 1px #e5e5e5; line-height:20px; font-size:12px; color:#666;} 
+
+.conter_fg{ width: 1200px;margin:30px auto 0; }
+.conter_fg h3 p{ background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_27.png) no-repeat scroll 3px 0px;  font-size: 19px; color: #333; line-height: 20px; line-height: 20px\9; padding-left:40px;}
+
+.txtScroll-left1{ width:1200px; height:auto; position:relative; margin-top: 20px;}
+.txtScroll-left1 .bd{ overflow:hidden; background: #fff;}
+.txtScroll-left1 .bd ul{ float:left;}
+.txtScroll-left1 .bd ul li{ float:left; margin-right:12px;}
+.txtScroll-left1 .bd ul li .img{ width:290px; height:200px; overflow: hidden; display: block;}
+.txtScroll-left1 .bd ul li .img img{ width: 290px; height:200px; }
+.txtScroll-left1 .bd ul li .title{ height:30px; width: 290px;   }
+.txtScroll-left1 .bd ul li .title a{ font-size:16px; color:#797878; display: block; text-align:center; line-height:30px;}
+.txtScroll-left1 .bd ul li:hover .title a{color:#1e85e6;}
+.txtScroll-left1 .prev,.txtScroll-left1 .next{ width:10px; height:13px;background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_33.png) no-repeat; cursor:pointer; z-index:100;}
+.txtScroll-left1 .prev{background-position:left top; position:absolute; right:16px; top:-37px; }
+.txtScroll-left1 .prev:hover{background-position:left bottom; }
+.txtScroll-left1 .next{ background-position:right top; position:absolute; right:0px; top:-37px;}
+.txtScroll-left1 .next:hover{background-position:right bottom;}
+
+.link{ width: 1200px;margin:20px auto 0;}
+.link .link_top ul{ background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_34.png) repeat-x scroll bottom; }
+.link .link_top ul li{float:left; margin-right: 20px; padding:0 5px 10px; font-size: 16px; color: #666; cursor: pointer; display: block;}
+.link .link_top ul li.h1{ font-size: 16px; color: #333; display: block; cursor: pointer; border-bottom: solid 3px #005bac;  }
+
+.picMarquee-lefta{ width:1200px;   position:relative; overflow: hidden;   }
+.picMarquee-lefta .hd{ overflow:hidden;  position:absolute;right: 0; top:-25px; }
+.picMarquee-lefta .hd .prev{ display:block;  width:10px; float:left; height:13px;  cursor:pointer; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_33.png) no-repeat scroll right top;}
+.picMarquee-lefta .hd .next{ display:block;  width:10px; height:13px;float:left;  margin-right:5px; cursor:pointer; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_33.png) no-repeat scroll left top;}
+.picMarquee-lefta .hd .next:hover{background-position:left bottom }
+.picMarquee-lefta .hd .prev:hover{background-position:right bottom }
+.picMarquee-lefta .bd{ padding-top:15px;overflow:hidden;padding-bottom:2px; width: 1150px;   }
+.picMarquee-lefta .bd ul{ overflow:hidden; zoom:1; }
+.picMarquee-lefta .bd ul li{ margin-right:11px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+.picMarquee-lefta .bd ul li .pic{ text-align:center;width:148px; height:50px;  overflow: hidden; }
+.picMarquee-lefta .bd ul li .pic a{ width:148px; height:50px; }
+.picMarquee-lefta .bd ul li .pic img{ width:148px; height:50px;  }
+.picMarquee-lefta .bd ul li .title{ line-height:25px;   }
+.picMarquee-lefta .bd ul li .title a{font-size: 16px; color: #333; display: block;}
+.picMarquee-lefta .bd ul li:hover .title a{color:#1e85e6;}
+
+
+.indexcase_a .caselist_a{ width:1200px; height:auto; margin:13px auto 0; position:relative;}
+.indexcase_a .caselist_a .prev,.indexcase_a .caselist_a .next{ width:10px; height:13px; cursor:pointer;}
+.indexcase_a .caselist_a .prev{background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_33.png) no-repeat scroll left top; position:absolute; right:16px; top:-38px}
+.indexcase_a .caselist_a .next{background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_33.png) no-repeat scroll right top; position:absolute; right:0px; top:-38px;}
+.indexcase_a .caselist_a .prev:hover{ background-position:left bottom}
+.indexcase_a .caselist_a .next:hover{ background-position:right bottom}
+.indexcase_a .caselist_a ul{ float:left;}
+
+.indexcase_a .imgtr td{ width:auto; height:auto;  overflow:hidden; cursor: pointer;}
+.indexcase_a .imgtr td li{width:148px; height:auto; margin-right: 11px; }
+.indexcase_a .imgtr td li .pic{ text-align:center;width:148px; height:50px;  overflow: hidden; }
+.indexcase_a .imgtr td li .pic a{ width:148px; height:50px; }
+.indexcase_a .imgtr td li .pic img{ width:148px; height:50px;  }
+.indexcase_a .imgtr td li .title{ line-height:25px; text-align: center;   }
+.indexcase_a .imgtr td li .title a{font-size: 16px; color: #333; display: block;}
+.indexcase_a .imgtr td li:hover .title a{color:#1e85e6;}
+
+.indexcase_b .caselist_b{ width:1200px; height:auto; margin:13px auto 0; position:relative;}
+.indexcase_b .caselist_b .prev,.indexcase_b .caselist_b .next{ width:10px; height:13px; cursor:pointer;}
+.indexcase_b .caselist_b .prev{background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_33.png) no-repeat scroll left top; position:absolute; right:16px; top:-38px}
+.indexcase_b .caselist_b .next{background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_33.png) no-repeat scroll right top; position:absolute; right:0px; top:-38px;}
+.indexcase_b .caselist_b .prev:hover{ background-position:left bottom}
+.indexcase_b .caselist_b .next:hover{ background-position:right bottom}
+.indexcase_b .caselist_b ul{ float:left;}
+
+.indexcase_b .imgtr td{ width:auto; height:auto;  overflow:hidden; cursor: pointer;}
+.indexcase_b .imgtr td li{width:148px; height:auto; margin-right: 11px; }
+.indexcase_b .imgtr td li .pic{ text-align:center;width:148px; height:50px;  overflow: hidden; }
+.indexcase_b .imgtr td li .pic a{ width:148px; height:50px; }
+.indexcase_b .imgtr td li .pic img{ width:148px; height:50px;  }
+.indexcase_b .imgtr td li .title{ line-height:25px; text-align: center;  }
+.indexcase_b .imgtr td li .title a{font-size: 13px; color: #333; display: block;}
+.indexcase_b .imgtr td li:hover .title a{color:#1e85e6;}
+
+.foot_nav{ width: 100%; height: auto; margin-top:30px; background: #004c8f; }
+.foot_nav ul{ width: 966px; margin:0 auto; height: 35px; }
+.foot_nav ul li{ float: left; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_35.png) no-repeat scroll right center; }
+.foot_nav ul li a{ padding: 0 14px; display: block; font-size: 14px; color: #fff; line-height: 35px; line-height: 35px\9;}
+.foot_nav ul li:hover a{ text-decoration: underline;}
+
+.footer_list{ clear: both; width: 100%; height: auto; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_36.png) no-repeat scroll top center; overflow: hidden; }
+.footer{ width: 1200px; margin: 0 auto; padding:20px 0 19px 0; }
+.footer .foot_logo{float: left; width: 400px;}
+.footer .footer_right{ float: left; margin-top:18px;margin-right:20px; }
+.footer p{ text-align: right; font-size: 12px; line-height: 20px; color: #fff; }
+.footer p span{ margin-left: 10px}
+.footer p a{ font-size: 13px; color: #fff;}
+.footer p a:hover{ text-decoration: underline;}
+
+/*right效果*/
+
+.right_contact_img ul{padding-left:0px;margin:0px;}
+#gotopbtn{bottom:188px;cursor:pointer;display:none;position:fixed;right:70px;width:60px;height:50px;background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/top.png) no-repeat scroll right;cursor:pointer;margin-bottom:10px; z-index:500;}
+#gotopbtn:hover{ background-position:left;}
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+.clearfix .clear{_height:0px;}
+/*gotop*/
+.cbbfixed {position: fixed;right: 70px;transition: bottom ease .3s;bottom: 258px;z-index: 310;cursor:pointer;}
+.cbbfixed .cbbtn {width: 60px;height: 50px;display: block;}
+.cbbfixed .weixin div {background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/weixin_01.png) no-repeat;width: 148px;height: 161px;position: absolute;left: -150px;top: -30px;opacity: 0;transform: scale(0);    -webkit-transform: scale(0);transform-origin: 100% 70%;-webkit-transform-origin: 100% 70%;transition: transform ease .3s,opacity ease .3s;-webkit-transition: all ease .3s;display:none\0;*display:none;}
+.cbbfixed .weixin:hover div {display: block;transform: scale(1);-webkit-transform: scale(1);opacity: 1;*display:block;}
+.cbbfixed .weixin .weixin-icon{float: left;width:60px;height: 50px; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/weixin.png) no-repeat scroll right;}
+
+.sub_banner{ width: 100%; height: 280px; display: block; overflow: hidden; }
+
+.sub_conter{ width: 1200px; height: auto; margin:0px auto; }
+.menu{ width: 260px; float:left; margin-top:10px; }
+.menu h2{ width: 260px; height: 79px; background: #005bac; }
+.menu h2 p{ text-align: center; line-height: 79px; line-height: 79px/9; font-size: 22px; color: #fff; }
+.menu ul{ width: 260px; height: auto;  }
+.menu ul li{ clear:both; display: block; margin-bottom: 1px; border-bottom: solid 1px #d3d3d3;  height: 50px; background: #f1f1f1; text-align: center;}
+.menu ul li a{ font-size: 15px; color: #005bac; display: block; line-height: 50px; line-height: 50px\9;}
+.menu ul li.hov{  background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_37.png) no-repeat;}
+.menu ul li:hover{ background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_37.png) no-repeat;}
+
+.sidebar{ width: 810px; float:right; margin-top:15px; min-height: 300px; }
+.sidebar .current{ border-bottom:solid 1px #5692c7; padding-bottom: 10px;}
+.sidebar .current h4{ float:left;  font-size: 18px; color: #333; padding-left: 10px;  line-height: 20px; line-height: 20px\9;}
+.sidebar .current p{ float:right; font-size: 12px; color: #000; line-height: 20px; line-height: 20px\9; }
+.sidebar .current p span{ color: #666}
+.sidebar .current p a{ font-size: 12px; color: #666;}
+.sidebar .current p a:hover{ color: #1e85e6;}
+
+.sidebar .sidebar_list{ margin:30px 15px 0; }
+.sidebar .sidebar_list p{ font-size: 14px; color: #555; line-height: 25px; text-indent: 2em; }
+
+.new{ margin-top:10px;}
+.new ul li{ padding: 18px 0; border-bottom: dashed 1px #b0b0b0; }
+.new ul li .title{ line-height: 25px; line-height: 25px\9; }
+.new ul li .title p{float:left; max-width: 790px;}
+.new ul li .title p i.i1{ float: left; width: 11px; height: 11px; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_38.png) no-repeat; display: block; margin:7px 10px 0;}
+.new ul li .title p a{ font-size: 14px; color: #222;}
+.new ul li .title p a:hover{ color: #1e85e6;}
+.new ul li .title span{ float: right;font-size: 12px; color: #a2a2a2; margin-right: 10px; }
+.new ul li p.tit{ font-size: 12px; color: #555; padding-left: 31px; line-height: 20px; }
+
+.new_list{ width: 790px; margin: 30px 10px 0;}
+.new_list .new_top .title{ font-size: 20px; color: #333; text-align: center; margin-bottom: 10px; line-height: 25px; line-height: 25px\9; }
+.new_list .new_top .tit{font-size: 12px; color: #777; text-align: center; line-height: 20px; line-height: 20px\9;}
+.new_list .new_top .tit span{ margin-right: 20px; }
+.new_list .new_body{ margin-top: 10px; }
+.new_list .new_body p{ font-size: 16px; color: #555; line-height: 25px; line-height: 25px\9; text-indent: 2em; }
+.new_list .bdsharebuttonbox{ float:right; }
+
+
+/*翻页*/
+.dede_pages{overflow:hidden;padding-top:20px;clear:both; padding-bottom:30px;}
+.dede_pages ul{	 width:810px;	font-size:14px;color:#111;margin-top:15px; text-align:center;}
+.dede_pages ul li{ margin-left:6px;	color:#111; display:inline;}
+.dede_pages ul li.hover{padding:8px 20px;	border:1px solid #dddddd;}
+.dede_pages ul li.thisclass{ border:1px solid #ddd;}
+.dede_pages ul li a{  border:1px solid #dddddd; border-radius: 4px;	color:#111; font-size: 14px;	text-decoration:none;padding:8px 20px;}
+.dede_pages ul li a:hover{ background-color:#2384de !important; border-radius: 4px;	color:#ffffff !important;border:solid 1px #2384de;}
+.dede_pages ul li.thisclass,.dede_pages ul li.thisclass a,.dede_pages ul li.thisclass a:hover{ border-radius: 4px;	background-color:#2384de !important; color:#ffffff !important; border:solid 1px #2384de;}
+.dede_pages ul li.thisclass a{ padding:8px 20px;}
+.dede_pages ul li.thisclass{ padding:8px 20px;}
+.dede_pages li select{background:#fff;	line-height:14px;color:#3590ba;	width:300px; display:none; border: none;}
+.dede_pages .pageinfo{ color:#6b6b6b; padding:10px 15px; border:1px solid #e9e9e9;}
+.dede_pages .pageinfo strong{	color:#188f00;	font-weight:normal;	margin:0px 2px;}
+
+.fan_ye{ width:790px; height:auto; margin:20px 0;}
+.fan_ye ul{}
+.fan_ye ul li{ font-size:13px; color:#555; line-height:30px;}
+.fan_ye ul li a{ color:#555;}
+.fan_ye ul li a:hover{color:#005bac;}
+
+.team{ width: 790px; margin: 30px 10px 0; overflow: hidden; }
+.team ul{ width: 800px; }
+.team ul li{ float:left; margin:0 10px 20px 0;  }
+.team ul li .img{ width: 190px; height: 230px; overflow: hidden; }
+.team ul li .img a{ width: 190px; height: 230px; }
+.team ul li .img a img{ width: 190px; height:230px; }
+.team ul li .title{ width: 186px; height: 30px; border:solid 2px #d1d1d1; border-top:none;text-overflow:ellipsis;white-space:nowrap;overflow:hidden; }
+.team ul li .title a{ display: block; text-align: center; line-height: 30px; line-height: 30px\9; font-size: 16px; color: #222;  background: #f2f2f2;}
+.team ul li:Hover .title a{ color: #1e85e6}
+.team ul li:Hover .title{border-color: #1e85e6}
+
+.team_list{ width: 790px; margin: 30px 10px 0; overflow: hidden; min-height: 300px; }
+.team_list p{ font-size: 13px; color: #666; line-height: 26px; line-height: 26px\9; text-indent: 2em; }
+
+.service-menu .menu-p .menu-i{background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/kd_36.png) no-repeat;}
+.service-menu{ float:left; width:260px; margin-top:-79px;}
+.service-menu h2{ width: 260px; height: 79px; background: #005bac; }
+.service-menu h2 p{ text-align: center; line-height: 79px; line-height: 79px/9; font-size: 22px; color: #fff; }
+.service-menu .menu-b{}
+.service-menu .menu-b .menu-p{ clear:both; display: block; margin-bottom: 1px; border-bottom: solid 1px #d3d3d3;  height: 50px; background: #f1f1f1; }
+.service-menu .menu-b .menu-p a .menu-i{float:left;display:inline;width:6px;height:10px;overflow:hidden;margin:15px 20px 0 0;}
+.service-menu .menu-b .menu-p a{ font-size: 15px; color: #005bac; display: block; line-height: 50px; line-height: 50px\9; padding-left: 90px;}
+.service-menu .menu-b .menu-p-current{ color:#005bac; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_37.png) no-repeat scroll left center;}
+.service-menu .menu-b .menu-p:hover{ background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_37.png) no-repeat scroll left center;}
+.service-menu .menu-b .menu-p:hover a{ color:#005bac;}
+.service-menu .menu-b .menu-p-current .menu-i{background-position:0px -10px;}
+.service-menu .menu-b .menu-p:hover .menu-i{background-position:0px -10px;}
+.service-menu .menu-b .menu-p a .menu-i1{}
+.service-menu .menu-b .menu-p-current a .menu-i1{background-position:0px 0px;}
+.service-menu .menu-b .menu-p:hover a .menu-i1{background-position:0px 0px;}
+.service-menu .menu-b .menu-p-current a:hover{color:#0b7bce;}
+.service-menu .menu-b .menu-c{display:none; }
+.service-menu .menu-b .menu-c-current{display:block;}
+.service-menu .menu-b .menu-c ul{display:block;width:260px; overflow:hidden;border-bottom:1px #d3d3d3 solid; margin-bottom: 1px;}
+.service-menu .menu-b .menu-c li{overflow:hidden; width:260px; height:30px; background: #f1f1f1;}
+.service-menu .menu-b .menu-c a{ display:block; font-size:14px; color:#005bac;padding-left:100px; line-height:30px;}
+.service-menu .menu-b .menu-c a:hover{color:#005bac;text-decoration:underline;}
+.service-menu .menu-b .menu-c-current .menu-b li.hover a{ color:#005bac;text-decoration:underline;}
+.service-menu .menu-b .menu-c-current li.hover a{ color:#005bac;text-decoration:underline;}
+
+
+.zsbm{ width:810px; margin-top:25px;}
+.zsbm .zsbm_title{ font-size:24px; color:#1e1e1e; text-align:center;}
+.zsbm .zsbm_top{ width:810px; height:17px; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_40.png) no-repeat scroll top center; margin-top:25px;}
+.zsbm .cbox{ width:810px; height:auto;  background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_41.png) repeat-y scroll top center;padding:25px 0 60px;}
+.zsbm .zsbm_bottom{width:810px; height:19px; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_42.png) no-repeat scroll bottom center;}
+.zsbm .cbox table{ width:305px; margin:0 auto;}
+.zsbm .cbox table tr td{ padding-bottom:10px; font-size: 12px; color: #555}
+.zsbm .cbox table tr td.bt{ font-size:12px; color:#60676d;}
+.zsbm .cbox table tr td.bt span{ color:#F00; margin-right:5px;}
+.zsbm .cbox table tr td .s_input{ width:280px; padding-left:8px; border:solid 1px #e2e2e2; background:#f7f8fa; height:30px; line-height:30px; line-height:30px\9; font-family:"微软雅黑"; font-size:12px; color:#363636; outline:none;}
+.zsbm .cbox table tr td .select_01{width:280px; height:30px; line-height:30px; line-height:30px\9; outline:none; font-family:"微软雅黑"; font-size:12px; color:#363636; padding-left:8px; border:solid 1px #e2e2e2; background:#f7f8fa;}
+.zsbm .cbox table tr td .select_02{ margin-right:5px;width:80px; height:30px; line-height:30px; line-height:30px\9; outline:none; font-family:"微软雅黑"; font-size:12px; color:#363636; padding-left:8px; border:solid 1px #e2e2e2; background:#f7f8fa;}
+.zsbm .cbox table tr td .y_input{ float:left; width:95px; padding-left:8px; border:solid 1px #e2e2e2; background:#f7f8fa; height:36px; line-height:36px; line-height:36px\9; font-family:"微软雅黑"; font-size:12px; color:#363636; outline:none;}
+.zsbm .cbox table tr td textarea{ padding:5px; width: 281px; height: 180px; border:solid 1px #e2e2e2; background:#f7f8fa; background:#f7f8fa;font-family:"微软雅黑"; font-size:12px; color:#363636; outline:none; }
+.zsbm .cbox .coolbg{ width:398px; height:49px; font-family:"微软雅黑"; font-size:17px; color:#fff; display:block; background:#2c90ed; border:solid 1px #c3e0fa; border-radius:4px; cursor:pointer;}
+.zsbm .cbox .coolbg:Hover{ filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8;}
+
+.lyzx{ width:810px; margin-top: 25px;}
+.lyzx .lyzx_top{ width: 810px; height: 17px; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_40.png) no-repeat scroll top; }
+.lyzx .cbox{ width: 810px; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_41.png) repeat-y scroll top center; padding: 25px 0 60px; }
+.lyzx .lyzx_bottom{ width: 810px; height: 19px; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_42.png) no-repeat scroll bottom; }
+.lyzx .cbox table{ margin:0 auto; }
+.lyzx .cbox table tr td{ font-size: 12px; color: #555; padding-bottom: 10px; }
+.lyzx .cbox table tr td.bt{ font-size: 12px; color: #60676d}
+.lyzx .cbox table tr td.bt span{ color: #f00; margin-right: 10px;}
+.lyzx .cbox table tr td .s_input{ width:290px; padding-left:5px; border:solid 1px #e2e2e2; background:#f7f8fa; height:30px; line-height:30px; line-height:30px\9; font-family:"微软雅黑"; font-size:12px; color:#363636; outline:none;}
+.lyzx .cbox table tr td .y_input{ float:left; width:95px; padding-left:5px; border:solid 1px #e2e2e2; background:#f7f8fa; height:36px; line-height:36px; line-height:36px\9; font-family:"微软雅黑"; font-size:12px; color:#363636; outline:none;}
+.lyzx .cbox table tr td textarea{ padding:5px; width: 285px; height: 180px; border:solid 1px #e2e2e2; background:#f7f8fa; background:#f7f8fa;font-family:"微软雅黑"; font-size:12px; color:#363636; outline:none; }
+.lyzx .cbox .coolbg{ width:295px; height:49px; font-family:"微软雅黑"; font-size:17px; color:#fff; display:block; background:#2c90ed; border:solid 1px #c3e0fa; border-radius:4px; cursor:pointer;}
+.lyzx .cbox .coolbg:Hover{ filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8;}
+
+.wmss{ width: 790px; height: auto; margin-top:30px; overflow: hidden; }
+.wmss ul{ width: 810px; }
+.wmss ul li{ float:left; margin:0 20px 10px 0; }
+.wmss ul li .img{ width: 250px; height: 167px; overflow: hidden; }
+.wmss ul li .img a{ width: 250px; height: 167px; }
+.wmss ul li .img a img{ width: 250px }
+.wmss ul li .title{ width: 250px; text-align: center; }
+.wmss ul li .title a{ font-size: 14px; color: #666; display: block; line-height: 30px; line-height: 30px\9;}
+.wmss ul li:hover .title a{ color: #005bac}
+
+.lxwm{ width: 790px; height: auto; margin-top:30px; }
+.lxwm .map{ margin: 0 auto; }
+.lxwm .lxwm_body{ width: 700px; margin: 20px auto 0; }
+.lxwm .lxwm_body p{ font-size: 13px; color: #666; line-height: 25px; line-height: 25px\9; }
+
+/*导航*/
+.nav_bar{width:100%;height:45px;background:#005bac;}
+.nav_bar .nav{width:1200px;height:auto;margin:0 auto;}.
+.nav_bar .nav ul{float:center;}
+.nav_bar .nav ul li{ float:left; height: 40px; margin-top:4px; margin-right: 11px; }
+.nav_bar .nav ul li a{ line-height: 40px; line-height: 40px\9; padding: 0 22px; display: block; font-size: 16px; color: #fff; }
+.nav_bar .nav ul li:hover a{ background: #fff; border-radius: 4px 4px 0 0; color: #183791; }
+.nav_bar .nav ul li.hov a{ background: #fff; border-radius: 4px 4px 0 0; color: #183791; }
+/* .nav_bar .nav ul li:hover .nav_lev2 a{background:none !important}
+.nav_bar .nav ul li.hov .nav_lev2 a{background:none !important} */
+
+.nav_cell{display:block;text-align:center;font:16px/60px 'microsoft yahei';}
+.nav .li a{text-decoration:none;outline:none;color:#666; cursor:pointer;  position:relative;}
+.nav .hover .nav_cell{ background: #fff; border-radius: 4px 4px 0 0; color: #183791; }
+.nav .selected .nav_cell{ background: #fff; border-radius: 4px 4px 0 0; color: #183791; }
+.nav_lev2{display:none;position:absolute;top:155px; overflow:hidden; background:#fff;*zoom:1;z-index:88; }
+.nav_lev2 .shadow{bottom:auto;top:0;z-index:88;}
+.nav_tu{ width:20px; height:20px; position:absolute; bottom:47px; right:40px; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/in_nav_tu_03.jpg) no-repeat; text-indent:-999em; z-index:9;}
+.nav_pic{ width:185px; height:120px; position:relative; z-index:1;}
+
+.nav_menu{background:#fbfbfb;height:45px;}
+.nav_menu li{font-size:14px;height:35px !important;line-height:35px !important; background: none !important; overflow:hidden; text-align:center;margin:0 !important;}
+.nav_menu li a{ background: none !important;}
+.nav_menu li a:hover{color:#005bac; background: none !important; text-decoration: underline;}
+.nav_menu li a.hov{ background: none !important; }
+
+.in1{ width:185px; float:right;border-left:1px solid #ddd; height:155px; padding-left:20px; padding-right:20px; margin-top:20px; margin-bottom:20px; line-height:24px; position:relative;}
+.in1 dt{margin-bottom:10px;}
+.p20{padding:20px 10px 20px 30px; width:100px; float:left;}
+.sub_nav li{float:none !important;}
+.sub_nav li a{color:#333 !important;line-height:24px  !important;font-size:15px !important;text-align:left; padding:0 !important; background-color:none !important; }
+.sub_nav li:hover a{color:#0075c2 !important;background:none !important;}
+.nav .hover .nav_lev2{display:block; position:absolute; z-index:88;width:auto; min-height:60px;}
+.nav_block{height:4px;overflow:hidden;left:0;bottom:0;width:100%;overflow:hidden;z-index:-1;_bottom:1px;}
+.nav_line{bottom:0;left:0;overflow:hidden;width:100%;height:4px;background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/navLine.gif);}
+.head_block{bottom:0;left:0;z-index:-1;overflow:hidden;width:100%;height:4px;}
+.head_line{bottom:0;left:50%;overflow:hidden;margin-left:489px;width:50%;height:4px;background:#e30f00;}
+.topindex11 .nav_lev2 { margin-left:-282px;} 
+.topindex10 .nav_lev2 { margin-left:-282px; } 
+.topindex9 .nav_lev2 { margin-left:-282px; }
+.topindex8 .nav_lev2 { margin-left:-297px; }
+.topindex4 .nav_lev2 { margin-left:-0px; }
+.topindex3 .nav_lev2 { margin-left:-0px; }
+
+.sidebar .wjdc{ width:810px; height:auto; margin:20px 0px 0; min-height:400px;}
+.sidebar .wjdc .wjdc1 ul li{ padding:10px 0; border-bottom:dashed 1px #cccccc; }
+.sidebar .wjdc .wjdc1 ul li .title{ line-height:30px;}
+.sidebar .wjdc .wjdc1 ul li .title i.i1{    float: left;    width: 11px;    height: 11px;    background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_38.png) no-repeat;    display: block;    margin: 10px 10px 0;}
+.sidebar .wjdc .wjdc1 ul li .title a{ float:left; font-size:15px; color:#222222;}
+.sidebar .wjdc .wjdc1 ul li .title a:Hover{ color:#005bac;}
+.sidebar .wjdc .wjdc1 ul li .list{ line-height:25px; clear:both; margin-left:31px;}
+.sidebar .wjdc .wjdc1 ul li .list .xtit{ font-size:12px; color:#999999; float:left}
+.sidebar .wjdc .wjdc1 ul li .list .right{ float:right; width:auto;}
+.sidebar .wjdc .wjdc1 ul li .list .right span{ float:left;}
+.sidebar .wjdc .wjdc1 ul li .list .right span a{ font-size:12px; color:#666666; padding: 0 10px;}
+.sidebar .wjdc .wjdc1 ul li .list .right span:hover a{ color:#222222;}
+
+.sidebar .wjdc .tit{}
+.sidebar .wjdc .tit h3{ font-size:24px; color:#222222; line-height:50px; text-align:center;}
+.sidebar .wjdc .tit .tit_list{ width:390px; margin:0 auto; line-height:30px;}
+.sidebar .wjdc .tit .tit_list p{ float:left; font-size:12px; color:#888888; padding: 0 10px; width:auto;}
+.sidebar .wjdc .body_title{ width:auto; padding:20px 0;}
+.sidebar .wjdc .body_title p{ font-size:13px; color:#444444; line-height:25px; text-indent:2em;}
+.sidebar .wjdc .wjdc_02{ width:810px; height:auto;  background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_41.png) repeat-y scroll top center;padding:25px 0px;}
+.sidebar .wjdc .wjdc_02 table{ margin:20px auto; width: 750px !important}
+.sidebar .wjdc .wjdc_02 table tr td{ height:30px; font-size:13px; color:#444444;}
+.sidebar .wjdc .wjdc_02 table tr td input{ float:left; margin-right:10px; margin-top:2px} 
+.sidebar .wjdc .wjdc_02 table tr td .s_tj{ padding:0 20px; cursor:pointer; height:45px; line-height:45px; line-height:45px\9; font-size:18px; color:#ffffff; background:#2c90ed; border:none; border-radius:4px; font-family:"微软雅黑";}
+.sidebar .wjdc .wjdc_02 table tr td .s_tj:hover{ background:#005bac;}
+.sidebar .wjdc .wjdc_02 table tr td .s_jg{ cursor:pointer; padding:0 20px; height:45px; line-height:45px; line-height:45px\9; font-size:18px; color:#7f7f7f; background:#f8f8f8; border:solid 1px #d8d8d8; border-radius:4px; font-family:"微软雅黑";}
+.sidebar .wjdc .wjdc_02 table tr td .s_jg:hover{ background:#f0f0f0;}
+.sidebar .wjdc .wjdc_03{ width: 810px; }
+.sidebar .wjdc .wjdc_02_top{ width:810px; height:17px; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_40.png) no-repeat scroll top center; margin-top:10px;}
+.sidebar .wjdc .wjdc_03{ width:810px; height:auto;  background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_41.png) repeat-y scroll top center;padding:25px 0px;}
+.sidebar .wjdc .wjdc_02_bottom{width:810px; height:19px; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_42.png) no-repeat scroll bottom center;}
+.sidebar .wjdc .wjdc_03 ul{ border-bottom:dashed 1px #d1d1d1; padding-bottom: 10px;width: 705px; margin: 20px auto; }
+.sidebar .wjdc .wjdc_03 ul li{ clear:both; font-size:13px; color:#444444; }
+/* .sidebar .wjdc .wjdc_03 ul li.top{ height:34px; background:#ececec;}
+.sidebar .wjdc .wjdc_03 ul li.top p.left{  height:14px} */
+.sidebar .wjdc .wjdc_03 ul li p{ padding:10px 0;}
+.sidebar .wjdc .wjdc_03 ul li p.left{ float:left; width:220px;  margin-left:110px;}
+.sidebar .wjdc .wjdc_03 ul li p.right{ width:0px; width: 290px; margin-left:70px; float:left;}
+.sidebar .wjdc .wjdc_03 ul li p.right i.y1{ float:left; width:75.39%; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_47.png) repeat-x;height:12px; margin-top:4px; margin-right:5px;}
+.sidebar .wjdc .wjdc_03 ul li p.right i.y2{ float:left; width:5.63%; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_48.png) repeat-x;height:12px; margin-top:4px; margin-right:5px;}
+.sidebar .wjdc .wjdc_03 ul li p.right i.y3{ float:left; width:5.67%; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_49.png) repeat-x;height:12px; margin-top:4px; margin-right:5px;}
+.sidebar .wjdc .wjdc_03 ul li p.right i.y4{ float:left; width:5.71%; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_50.png) repeat-x;height:12px; margin-top:4px; margin-right:5px;}
+.sidebar .wjdc .wjdc_03 ul li p.right i.y5{ float:left; width:7.58%; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_51.png) repeat-x; height:12px; margin-top:4px; margin-right:5px;}
+.sidebar .wjdc .wjdc_03 ul li p.left input{ margin-right:10px; float:left; margin-top:3px;}
+.sidebar .wjdc .wjdc_03 .wjdc_tj{ float:right; font-size:12px; color:#555555; margin-right: 30px;}
+
+.cjcx{ width:810px; height:auto; min-height:500px; margin-top:30px; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_52.png) no-repeat scroll bottom center;}
+.cjcx .cjcx_top{ width:auto;}
+.cjcx .cjcx_top table{ margin:0 auto}
+.cjcx .cjcx_top table tr td{ padding-bottom:20px; font-size:14px; color:#555;}
+.cjcx .cjcx_top table tr td.bt{font-size:12px; color:#60676d; padding-right:10px;}
+.cjcx .cjcx_top table tr td.bt span{ color:#ff0000; margin-right:10px;}
+.cjcx .cjcx_top table tr td .s_input{ width:250px; padding-left:5px; font-size:14px; border:solid 1px #e2e2e2; background:#f7f8fa; font-family:"微软雅黑"; height:30px; line-height:30px; line-height:30px\9; outline:none;}
+.cjcx .cjcx_top table tr td .s_cx{ width:250px; height:30px; background:#2c90ed; border:none; border-radius:4px; font-size:14px; color:#fff; font-family:"微软雅黑"; cursor:pointer;}
+.cjcx .cjcx_top table tr td .s_cx:hover{filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8;}
+.cjcx .cjcx_bottom{ margin: 20px auto; width:750px;}
+.cjcx .cjcx_bottom .title{ text-align:center; font-size:18px; color:#222; padding-bottom:10px;}
+.cjcx .cjcx_bottom table{ width:750px; border:solid 1px #dddddd; border-radius:6px;}
+.cjcx .cjcx_bottom table tr.btl td{ background:#ececec; font-size:14px; color:#444; height:36px;}
+.cjcx .cjcx_bottom table tr td{ border-right:solid 1px #ddd;border-top:solid 1px #ddd; font-size:13px; color:#444; height:44px; text-align:center;}
+
+.xyfg{ margin:30px 10px; width: 790px; overflow: hidden; }
+.xyfg ul{ width: 810px; }
+.xyfg ul li{ float:left; margin-right: 10px; margin-bottom: 20px;}
+.xyfg ul li .img{ width: 190px; height: 142px; overflow: hidden; }
+.xyfg ul li .img a{ width: 190px; height: 142px; }
+.xyfg ul li .img a img{ width: 190px; height: 142px;}
+.xyfg ul li .title{ width: 190px; height: 25px; }
+.xyfg ul li .title a{ font-size: 14px; color: #fff; background: #666666; display: block; line-height: 25px; line-height: 25px\9; text-align: center; height:25px;overflow: hidden;}
+.xyfg ul li:hover .title a{ background: #005bac; }
+
+.zypt{width:810px;margin:30px auto;overflow:hidden; min-height:300px;}
+.zypt ul{width:810px;}
+.zypt ul li{float:left;margin-right:10px;margin-bottom:12px;display:inline;width:192px;height:175px;overflow:hidden;position:relative; background:url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_54.png)  scroll left top;}
+.zypt ul li .photo{width:192px;height:145px;overflow:hidden; cursor:pointer;}
+.zypt .rsp{width:192px;height:145px;overflow:hidden;position: absolute;background:#000; top:0; left: 0; cursor:pointer;}
+.zypt .text{position:absolute;width:165px;height:110px;left:-300px;top:0px;overflow:hidden; cursor:pointer;}
+.zypt .text h3{width:165px;margin-top:100px;height:50px;line-height:50px;text-align:center;color:#FFFFFF;font-size:20px; cursor:pointer;}
+.zypt .text a{text-decoration:none; display:block; font-size:18px; margin-left:25px; line-height:120px; color:#fff;}
+.zypt .text a:hover{color:#fff;}
+.zypt .text a img{ margin-left:60px;margin-top:60px;}
+.zypt .text div{text-align:center;color:#FFFFFF;font-size:18px;}
+.zypt  ul li p.title{ width:192px;}
+.zypt  ul li p.title a{ text-align:center; font-size:12px; color:#fff; background: #444444; line-height:30px; line-height:30px\9; display:block;}
+
+.wp-pagenavi {CLEAR: both}
+.wp-pagenavi A {BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #bfbfbf 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; MARGIN: 2px; BORDER-LEFT: #bfbfbf 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bfbfbf 1px solid; TEXT-DECORATION: none}
+.wp-pagenavi SPAN {BORDER-RIGHT: #bfbfbf 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #bfbfbf 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; MARGIN: 2px; BORDER-LEFT: #bfbfbf 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bfbfbf 1px solid; TEXT-DECORATION: none}
+.wp-pagenavi A:hover {BORDER-LEFT-COLOR: #000; BORDER-BOTTOM-COLOR: #000; BORDER-TOP-COLOR: #000; BORDER-RIGHT-COLOR: #000}
+.wp-pagenavi SPAN.current {BORDER-LEFT-COLOR: #000; BORDER-BOTTOM-COLOR: #000; BORDER-TOP-COLOR: #000; BORDER-RIGHT-COLOR: #000}
+.wp-pagenavi SPAN.current {FONT-WEIGHT: bold}
+/*
+     FILE ARCHIVED ON 05:33:20 Jan 17, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:38:00 Aug 25, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.748
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.012
+  esindex: 0.016
+  cdx.remote: 47.371
+  LoadShardBlock: 233.621 (3)
+  PetaboxLoader3.datanode: 172.464 (5)
+  PetaboxLoader3.resolve: 325.262 (2)
+  load_resource: 388.536
+  loaddict: 90.952
+*/
