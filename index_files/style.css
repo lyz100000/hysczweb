@@ -277,7 +277,7 @@ html {min-height:101%;}
 .foot_nav ul li:hover a{ text-decoration: underline;}
 
 .footer_list{ clear: both; width: 100%; height: auto; background: url(/web/20240117053320im_/http://hyscz.com/Templates/cn/images/sd_36.png) no-repeat scroll top center; overflow: hidden; }
-.footer{ width: 1200px; margin: 0 auto; padding:20px 0 19px 0; }
+.footer{ width: 1200px; margin: 0 auto; padding:20px 0 19px 0; background:blue }
 .footer .foot_logo{float: left; width: 400px;}
 .footer .footer_right{ float: left; margin-top:18px;margin-right:20px; }
 .footer p{ text-align: right; font-size: 12px; line-height: 20px; color: #fff; }
